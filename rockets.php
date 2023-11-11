@@ -1,3 +1,16 @@
+<?php
+require_once __DIR__.'/config.php';
+
+$user = null;
+
+if (check_auth()) {
+    // Получим данные пользователя по сохранённому идентификатору
+    $stmt = $pdo->prepare("SELECT * FROM `users` WHERE `email` = :email");
+    $stmt->execute(['email' => $_SESSION['user_id']]);
+    $user = $stmt->fetch(PDO::FETCH_ASSOC);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -188,6 +201,7 @@
             </div>
         </div>
         <script src="js/rockets.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 
 </html>

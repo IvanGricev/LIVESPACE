@@ -1,3 +1,16 @@
+<?php
+require_once __DIR__.'/config.php';
+
+$user = null;
+
+if (check_auth()) {
+    // Получим данные пользователя по сохранённому идентификатору
+    $stmt = $pdo->prepare("SELECT * FROM `users` WHERE `email` = :email");
+    $stmt->execute(['email' => $_SESSION['user_id']]);
+    $user = $stmt->fetch(PDO::FETCH_ASSOC);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,43 +20,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lifespace</title>
     <link rel="stylesheet" href="css/news.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 </head>
 
 <body>
 
-    <section class="header">
-        <div class="row">
-            <div class="logo">
-                <a href="index_up.html"><img src="img/LIVESPACE.svg" alt="" srcset=""></a>
-            </div>
+    <header>
+        <div class="containerr">
             <nav>
-                <a class="nav_item" href="index.html">Планеты</a>
-                <a class="nav_item" href="rockets.html">Ракеты</a>
-                <a class="nav_item" href='news.html'>Новости</a>
+                <ul class="nav">
+                    <li><span><a href="index_up.html"><img src="img/LIVESPACE.png" alt=""></a></span></li>
+                    <li><a href="index.html">Планеты </a></li>
+                    <li><a href="rockets.html">Ракеты</a></li>
+                    <li><a href="news.html">новости</a></li>
+                </ul>
+                <ul class="nav">
+                    <?php if (!isset($_SESSION['user_id'])): ?>
+                    <li class="nav-item">
+                        <a href="login.php" class="nav-link link-body-emphasis px-2 text-white fw-bold">Вход</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="registration.php" class="nav-link link-body-emphasis px-2 text-white fw-bold">Регистрация</a>
+                    </li>
+                    <?php else: ?>
+                    <li class="nav-item">
+                        <div class="userID pt-2 "><?php echo $_SESSION['user_id'] ?></divs>
+                    </li>
+                    <li class="nav-item">
+                        <a href="do_logout.php" class="nav-link link-body-emphasis px-2 text-white fw-bold">Выход</a>
+                    </li>
+                    <?php endif; ?>
+                </ul>
             </nav>
         </div>
-    </section>
-    <section class="section-timer">
-        <div class="container">
-            <div class="launch__timer">
-                <div class="timer">
-                    <div class="timer__block">
-                        <span id="days">12</span> дней
-                    </div>
-                    <div class="timer__block">
-                        <span id="hours">20</span> часов
-                    </div>
-                    <div class="timer__block">
-                        <span id="minutes">56</span> минут
-                    </div>
-                    <div class="timer__block">
-                        <span id="seconds">20</span> секунд
-                    </div>
-                </div>
-                <div class="title">Столько времени осталось до взлёта ракеты SpaceX</div>
-            </div>
-        </div>
-    </section>
+    </header>
 
     <SECTION class="container">
         <div class="main_lt">
@@ -101,6 +112,7 @@
     </section>
 
     <script src="js/news.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 
 </html>
