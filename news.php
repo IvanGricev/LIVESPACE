@@ -19,10 +19,8 @@ if (check_auth()) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lifespace</title>
-    <link rel="stylesheet" href="css/news.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-</head>
+    <link rel="stylesheet" href="css/index.css"></head>
 
 <body>
 
@@ -30,7 +28,7 @@ if (check_auth()) {
         <div class="containerr">
             <nav>
                 <ul class="nav">
-                    <li><span><a href="index_up.php"><img src="img/LIVESPACE.png" alt=""></a></span></li>
+                    <li><span><a href="index.php"><img src="img/LIVESPACE.png" alt=""></a></span></li>
                     <li><a href="index.php">Планеты </a></li>
                     <li><a href="rockets.php">Ракеты</a></li>
                     <li><a href="news.php">новости</a></li>
