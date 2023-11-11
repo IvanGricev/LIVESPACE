@@ -30,10 +30,10 @@ if (check_auth()) {
         <div class="containerr">
             <nav>
                 <ul class="nav">
-                    <li><span><a href="index_up.html"><img src="img/LIVESPACE.png" alt=""></a></span></li>
-                    <li><a href="index.html">Планеты </a></li>
-                    <li><a href="rockets.html">Ракеты</a></li>
-                    <li><a href="news.html">новости</a></li>
+                    <li><span><a href="index_up.php"><img src="img/LIVESPACE.png" alt=""></a></span></li>
+                    <li><a href="index.php">Планеты </a></li>
+                    <li><a href="rockets.php">Ракеты</a></li>
+                    <li><a href="news.php">новости</a></li>
                 </ul>
                 <ul class="nav">
                     <?php if (!isset($_SESSION['user_id'])): ?>
@@ -95,11 +95,11 @@ if (check_auth()) {
     <section class="footer">
         <div class="row">
             <ul>
-                <span><a href="index_up.html"><img src="img/LIVESPACE.png" alt=""></a></span>
+                <span><a href="index_up.php"><img src="img/LIVESPACE.png" alt=""></a></span>
 
-                <li><a href="index_planets.html">Планеты </a></li>
-                <li><a href="index_rockets.html">Ракеты</a></li>
-                <li><a href="index_news.html">Новости</a></li>
+                <li><a href="index_planets.php">Планеты </a></li>
+                <li><a href="index_rockets.php">Ракеты</a></li>
+                <li><a href="index_news.php">Новости</a></li>
 
                 <div class="das">
                     <a href=""><img src="img/Vector (1).png" alt=""></a>
