@@ -25,22 +25,22 @@ if (check_auth()) {
 
 <body>
 
-    <header>
-        <div class="containerr">
-            <nav>
-                <ul class="nav">
-                    <li><span><a href="index.php"><img src="img/LIVESPACE.png" alt=""></a></span></li>
-                    <li><a href="index.php">Планеты </a></li>
-                    <li><a href="">Ракеты</a></li>
-                    <li><a href="news.php">новости</a></li>
+    <header class="bg-black w-100 pb-5 pt-3">
+        <div class="container">
+            <nav class="nav pb-1">
+                <ul class="nav me-auto">
+                    <li class="nav-item"><span><a href="index.php"><img src="img/LIVESPACE.png" alt=""></a></span></li>
+                    <li class="nav-item"><a href="index.php" class="px-3 fw-bold" >Планеты </a></li>
+                    <li class="nav-item"><a href="" class="px-3 fw-bold">Ракеты</a></li>
+                    <li class="nav-item"><a href="news.php" class="px-3 fw-bold">новости</a></li>
                 </ul>
                 <ul class="nav">
                     <?php if (!isset($_SESSION['user_id'])): ?>
                     <li class="nav-item">
-                        <a href="login.php" class="nav-link link-body-emphasis px-2 text-white fw-bold">Вход</a>
+                        <a href="login.php" class="nav-link px-2 text-white fw-bold">Вход</a>
                     </li>
                     <li class="nav-item">
-                        <a href="registration.php" class="nav-link link-body-emphasis px-2 text-white fw-bold">Регистрация</a>
+                        <a href="registration.php" class="nav-link px-2 text-white fw-bold">Регистрация</a>
                     </li>
                     <?php else: ?>
                     <li class="nav-item">
@@ -52,16 +52,18 @@ if (check_auth()) {
                     <?php endif; ?>
                 </ul>
             </nav>
+            <a href="index.php">Главная </a> - <a href="">Войти</a>
         </div>
     </header>
     
     
 
-    <div>
+    <div class="w-50 mt-5 container pb-5 h-100">
+        <h2 class="mb-3">Авторизация</h2>
 
-        <div class="w-25">
+        <div class="w-50">
             <?php flash(); ?> 
-        </div> 
+        </div>
 
         <form method="post" action="do_login.php" id="loginForm" class="w-50">
             <div class="mb-3">
@@ -73,35 +75,28 @@ if (check_auth()) {
                 <input type="password" class="form-control" id="password" name="password" required>
             </div>
             <div class="d-flex justify-content-between">
-                <button type="submit" class="btn btn-primary">Войти</button>
-                <a class="btn btn-outline-primary" href="registration.php">Зарегистрироваться</a>
+                <button type="submit" class="btn btn-warning">Войти</button>
+                <a class="btn btn-outline-warning submit" href="registration.php">Зарегистрироваться</a>
             </div>
         </form>
-
     </div>
 
-
-
-
-    </SECTION>
-    <section class="footer">
-        <div class="row">
-            <ul>
-                <span><a href="index_up.php"><img src="img/LIVESPACE.png" alt=""></a></span>
-
-                <li><a href="index_planets.php">Планеты </a></li>
-                <li><a href="index_rockets.php">Ракеты</a></li>
-                <li><a href="index_news.php">Новости</a></li>
-
-                <div class="das">
-                    <a href=""><img src="img/Vector (1).png" alt=""></a>
-                    <a href=""><img src="img/telegram.png" alt=""></a>
-                    <a href=""><img src="img/twitter.png" alt=""></a>
-                    <a href=""><img src="img/email.png" alt=""></a>
-                </div>
+    <footer class="container pb-3">
+        <div class="nav">
+            <ul class="nav me-auto">
+                <li class="nav-item"><a href="index_up.php"><img src="img/LIVESPACE.png" alt=""></a></li>
+                <li class="nav-item pl-3"><a href="index_planets.php" class="px-2">Планеты </a></li>
+                <li class="nav-item pl-3"><a href="index_rockets.php" class="px-2">Ракеты</a></li>
+                <li class="nav-item pl-3"><a href="index_news.php" class="px-2">новости</a></li>
+            </ul>
+            <ul class="nav ml-3">
+                <li class="nav-item"><a href="" class="px-2"><img src="img/Vector (1).png" alt=""></a></li>    
+                <li class="nav-item"><a href="" class="px-2"><img src="img/telegram.png" alt=""></a></li>    
+                <li class="nav-item"><a href="" class="px-2"><img src="img/twitter.png" alt=""></a></li>    
+                <li class="nav-item"><a href="" class="px-2"><img src="img/email.png" alt=""></a></li>    
             </ul>
         </div>
-    </section>
+    </footer>
 
     <script src="js/news.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
