@@ -1,0 +1,471 @@
+@font-face {
+    font-family: mr_ApexMk3-ExtraLight;
+    src: url('20050.ttf');
+}
+
+@font-face {
+    font-family: mr_ApexMk3-Medium;
+    src: url('20051.ttf');
+}
+
+body {
+    background-color: #0F0F0F;
+    color: white;
+}
+
+@font-face {
+    font-family: FontAwesome;
+    src: url('9466\ \(1\).otf');
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    font-family: mr_ApexMk3-Medium;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 20pt;
+    color: #FFC700;
+}
+
+.navbar-brand:hover {
+    color: #FFC700;
+}
+
+.nav-link {
+    font-size: 10pt;
+    font-family: mr_ApexMk3-ExtraLight;
+    margin-top: 10px;
+}
+
+.navbar-nav {
+    margin-left: 690px;
+}
+
+.navbar {}
+
+.block1 {
+    height: 640px;
+}
+
+.t1 {
+    font-family: mr_ApexMk3-ExtraLight;
+    font-size: 10pt;
+    margin-left: 55px;
+    padding-top: 20px;
+}
+
+.pic1 {
+    border-color: white;
+    border-width: 0px 0px 1.5px 0px;
+    border-style: solid;
+    overflow: hidden;
+    height: 385px;
+}
+
+#pict1 {
+    width: 1000px;
+}
+
+.inf1 {
+    height: 530px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1.5px;
+    width: 1000px;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+
+.text1 {
+    display: inline-block;
+    font-family: mr_ApexMk3-Medium;
+    font-size: 22pt;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.btn1 {
+    display: inline-block;
+    float: right;
+    margin-top: 45px;
+    margin-right: 35px;
+    color: white;
+}
+
+.btn1 button {
+    background-color: #FFC700;
+    font-family: mr_ApexMk3-ExtraLight;
+    color: white;
+    font-size: 10pt;
+    border: none;
+    height: 55px;
+    width: 200px;
+    font-size: 15px;
+    ;
+}
+
+.block2 {
+    display: grid;
+    padding-left: 55px;
+    grid-template-columns: 340px 340px 420px;
+    height: 420px;
+}
+
+.pic {
+    margin-top: 20px;
+    margin-left: 17px;
+    overflow: hidden;
+    height: 260px;
+}
+
+#pict {
+    width: 280px;
+}
+
+.picc2 {
+    margin-top: 20px;
+    margin-left: 17px;
+}
+
+#picct2 {
+    width: 280px;
+}
+
+.info1 {
+    margin-top: 70px;
+    display: inline-block;
+    border-color: white;
+    border-style: solid;
+    border-width: 1.5px;
+    width: 320px;
+    height: 580px;
+}
+
+.textt2 {
+    margin-top: 10px;
+    font-size: 20pt;
+    margin-left: 20px;
+    font-family: mr_ApexMk3-Medium;
+}
+
+.infs2 {
+    display: grid;
+    padding-left: 55px;
+    grid-template-columns: 340px 340px 340px;
+}
+
+.stext2 {
+    font-family: mr_ApexMk3-ExtraLight;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 12pt;
+}
+
+.linkk2 {
+    margin-top: 10px;
+    font-size: 14pt;
+    margin-left: 20px;
+    text-decoration: underline;
+    font-family: mr_ApexMk3-ExtraLight;
+    color: #FFC700;
+}
+
+.text {
+    margin-top: 20px;
+    font-size: 20pt;
+    text-align: center;
+    font-family: mr_ApexMk3-Medium;
+}
+
+.link {
+    margin-top: 10px;
+    font-size: 14pt;
+    text-align: center;
+    text-decoration: underline;
+    font-family: mr_ApexMk3-ExtraLight;
+    color: #FFC700;
+}
+
+a {
+    color: #FFC700;
+}
+
+.nav-link {
+    font-size: 10pt;
+    color: white;
+    font-family: mr_ApexMk3-ExtraLight;
+    margin-top: 10px;
+}
+
+a:hover {
+    color: white;
+}
+
+.pic3 {
+    margin-top: 20px;
+    margin-left: 17px;
+    overflow: hidden;
+    height: 260px;
+}
+
+.text3 {
+    margin-top: 20px;
+    font-size: 20pt;
+    text-align: center;
+    font-family: mr_ApexMk3-Medium;
+}
+
+.link3 {
+    margin-top: 10px;
+    font-size: 14pt;
+    text-align: center;
+    text-decoration: underline;
+    font-family: mr_ApexMk3-ExtraLight;
+    color: #FFC700;
+}
+
+.pic4 {
+    margin-top: 20px;
+    margin-left: 17px;
+    overflow: hidden;
+    height: 260px;
+}
+
+#pict4 {
+    width: 280px;
+}
+
+.text4 {
+    margin-top: 20px;
+    font-size: 20pt;
+    text-align: center;
+    font-family: mr_ApexMk3-Medium;
+}
+
+.link4 {
+    margin-top: 10px;
+    font-size: 14pt;
+    text-align: center;
+    text-decoration: underline;
+    font-family: mr_ApexMk3-ExtraLight;
+    color: #FFC700;
+}
+
+.inf {
+    display: inline-block;
+    border-color: white;
+    border-style: solid;
+    border-width: 1.5px;
+    width: 320px;
+    height: 410px;
+}
+
+.block3 {
+    height: 800px;
+}
+
+.infs {
+    display: grid;
+    grid-template-columns: 510px 510px;
+    grid-template-rows: 350px 350px;
+}
+
+.title1 {
+    font-family: mr_ApexMk3-Medium;
+    font-size: 23pt;
+    padding-top: 80px;
+    margin-left: 60px;
+}
+
+.inf5 {
+    margin-top: 30px;
+    display: inline-block;
+    border-color: white;
+    border-style: solid;
+    border-width: 1.5px;
+    margin-left: 55px;
+    width: 490px;
+    height: 310px;
+}
+
+.inf6 {
+    margin-top: 30px;
+    display: inline-block;
+    border-color: white;
+    border-style: solid;
+    border-width: 1.5px;
+    ;
+    margin-left: 15px;
+    width: 490px;
+    height: 310px;
+}
+
+.inf7 {
+    margin-top: 30px;
+    display: inline-block;
+    border-color: white;
+    border-style: solid;
+    border-width: 1.5px;
+    ;
+    margin-left: 55px;
+    width: 490px;
+    height: 310px;
+}
+
+.inf8 {
+    margin-top: 30px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1.5px;
+    ;
+    margin-left: 15px;
+    width: 490px;
+    height: 310px;
+}
+
+.text5 {
+    width: 250px;
+    float: right;
+    display: inline-block;
+}
+
+.pic5 {
+    display: inline-block;
+}
+
+#pict5 {
+    margin-left: 10px;
+    margin-top: 15px;
+    height: 280px;
+}
+
+#maint1 {
+    line-height: 24px;
+    margin-top: 10px;
+    font-family: mr_ApexMk3-Medium;
+    font-size: 13pt;
+}
+
+#sect1 {
+    margin-top: 5px;
+    font-family: mr_ApexMk3-ExtraLight;
+    font-size: 8pt;
+}
+
+#date1 {
+    font-family: mr_ApexMk3-ExtraLight;
+    font-size: 7pt;
+    margin-top: 10px;
+}
+
+#button2 button {
+    font-family: mr_ApexMk3-ExtraLight;
+    font-size: 8pt;
+    color: #FFC700;
+    border-style: solid;
+    border-width: 1px;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    border-color: #FFC700;
+    background: transparent;
+}
+
+#maint2 {
+    line-height: 24px;
+    margin-top: 10px;
+    font-family: mr_ApexMk3-Medium;
+    font-size: 13pt;
+}
+
+#sect2 {
+    margin-top: 5px;
+    font-family: mr_ApexMk3-ExtraLight;
+    font-size: 8pt;
+}
+
+#date2 {
+    font-family: mr_ApexMk3-ExtraLight;
+    font-size: 7pt;
+    margin-top: 25px;
+}
+
+.title2 {
+    font-family: mr_ApexMk3-Medium;
+    font-size: 23pt;
+    padding-top: 80px;
+    margin-left: 60px;
+}
+
+.stitle2 {
+    font-family: mr_ApexMk3-ExtraLight;
+    font-size: 18pt;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+.block4 {
+    height: 950px;
+}
+
+.block5 {
+    height: 440px;
+}
+
+#mt1 {
+    font-family: mr_ApexMk3-Medium;
+    color: rgba(255, 199, 0, 0.7);
+    font-size: 28pt;
+    margin-left: 70px;
+    display: inline-block;
+    margin-top: 120px;
+}
+
+.mt1 {
+    color: rgba(255, 199, 0, 0.7);
+}
+
+.mt1:hover {
+    text-decoration: none;
+    color: rgba(255, 199, 0, 0.7);
+}
+
+#st1 {
+    font-family: mr_ApexMk3-ExtraLight;
+    font-size: 13pt;
+    display: inline-block;
+    margin-top: 135px;
+    margin-left: 100px;
+}
+
+.st1 {
+    color: white;
+    text-decoration: none;
+}
+
+.st1:hover {
+    text-decoration: none;
+}
+
+#icons {
+    margin-top: 132px;
+    margin-left: 110px;
+}
+
+#st2 {
+    font-family: mr_ApexMk3-ExtraLight;
+    font-size: 13pt;
+    display: inline-block;
+    margin-left: 335px;
+    margin-top: 20px;
+}
+
+@media (max-width:768px) {
+    .block1 .block2 .block3 .block4 .block5 {
+        width: 100%
+    }
+}

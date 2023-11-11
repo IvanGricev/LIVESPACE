@@ -1,0 +1,188 @@
+@import url(http://fonts.googleapis.com/css?family=Philosopher&subset=cyrillic);
+body {
+    background: #0F0F0F;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    /* font-family: Roboto; */
+    /* text-align: center; */
+    /* max-width: 1600px; */
+    /* align-items: center; */
+    
+}
+
+.container {
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 200px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.launch__timer {
+    /* width: 1080px; */
+    text-align: center;
+}
+
+.launch__timer .title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 42px;
+    /* width: 521px; */
+    /* margin-left: 535px; */
+    margin-top: 51px;
+}
+
+.launch__timer .timer {
+    margin-top: 60px;
+    /* padding-left: 95px; */
+    display: flex;
+    padding-left: 180px;
+    color: black;
+    /* padding-left: 518px; */
+}
+
+.launch__timer .timer__block {
+    width: 102px;
+    height: 120px;
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, .25);
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 20px;
+}
+
+.launch__timer .timer__block span {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 56px;
+    font-weight: 700
+}
+
+.main_lt {
+    /* font-family: mr_ApexMk3; */
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 50px;
+    /* width: 954px; */
+    /* padding-left: 323px; */
+    padding-top: 139px;
+    padding-bottom: 62px;
+    text-align: center;
+    max-width: 954px;
+}
+
+.mimage_1 {
+    height: 678px;
+    padding-bottom: 85px;
+}
+
+.mimage_2 {
+    padding-top: 65px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+}
+
+.mvid {
+    padding-left: 20px;
+    padding-bottom: 85px;
+}
+
+p {
+    text-align: left;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    font-style: normal;
+}
+
+.main_tc {
+    text-align: center;
+    max-width: 864px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.main_t {
+    max-width: 875px;
+}
+
+.title {
+    max-width: 521px;
+    padding-left: 200px;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.nav_item {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 25px;
+}
+
+nav {
+    padding-left: 722px;
+}
+
+.header {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.row {
+    display: inline-flex;
+}
+.footer{
+    text-align: center;
+    margin-top: 374px;
+    margin-left: -200px;
+  }
+  
+  .footer li {
+    list-style: none;
+  
+  }
+  
+  .footer li {
+    color: rgb(255, 245, 245);
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 20px;
+  
+  }
+  
+  .footer  a:hover {
+    color: rgb(245, 170, 170);
+  }
+  
+  .footer ul {
+    display: flex;
+    
+  }
+  .footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+  }
+  .footer span{
+    margin-right:166px ;
+  }
+  
+  .das{
+    margin-left: 300px;
+  }
+  .das a{
+    margin-right: 15px;
+  }
+
+
+  

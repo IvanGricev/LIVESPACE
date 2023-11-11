@@ -1,0 +1,198 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(14, 13, 13);
+    color: white;
+    font-family: mr_ApexMk3;
+}
+
+.containerr li {
+    list-style: none;
+}
+
+.containerr nav a {
+    color: rgb(255, 245, 245);
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.containerr ul {
+    display: flex;
+}
+
+.containerr span {
+    padding-right: 747px;
+}
+
+.btn{
+    background-color: transparent;
+    border: transparent;
+}
+
+.land a {
+    text-decoration: none;
+    color: rgb(255, 245, 245);
+    padding-left: 65px;
+}
+.wrapper {
+    width: 1550px;
+    margin: 0 auto;
+}
+
+.slider-container {
+    overflow: hidden;
+}
+
+.slider-track {
+    display: flex;
+    transition: 2s;
+}
+
+.slider__item {
+    margin-top: 80px;
+    border: 3px solid rgb(151, 138, 138);
+    min-width: 295px;
+    height: 535px;
+    background-color: black;
+}
+
+.slider__item h1 {
+    padding-left: 23px;
+    font-size: 48px;
+}
+
+.slider__item p {
+    padding-left: 23px;
+}
+
+.slider__item a {
+    color:  #FFC700;
+    font-size: 18px;
+    padding-left: 23px;
+    
+}
+
+.slider__item img {
+    width: 250px;
+    height: 250px;
+}
+
+.slider-buttons {
+    text-align: center;
+}
+
+.earch h2 {
+    font-size: 64px;
+    text-align: center;
+}
+
+.earchimg {
+    display: flex;
+    word-wrap: break-word;
+}
+
+.earch img {
+    margin-left: 64px;
+    width: 700px;
+    height: 700px;
+    margin-right: 30px;
+}
+
+.earch p {
+    font-size: 36px;
+}
+
+.how h2 {
+    font-size: 64px;
+    margin-left: 10px;
+}
+
+.how {
+    font-size: 36px;
+    margin-left: 69px;
+}
+
+.stroenie {
+    display: flex;
+    word-wrap: break-word;
+    font-size: 36px;
+}
+
+.stroenie span {
+    font-size: 64px;
+    margin-left: 66px;
+    font-weight: 900;
+}
+
+.stroenie p {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.earchh h2 {
+    font-size: 64px;
+    text-align: center;
+}
+
+.earchimg {
+    display: flex;
+    word-wrap: break-word;
+}
+
+.earchh img {
+    margin-left: 64px;
+    width: 700px;
+    height: 700px;
+    margin-right: 30px;
+}
+
+.earchh p {
+    font-size: 36px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+footer {
+    margin-top: 374px;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer li {
+    color: rgb(255, 245, 245);
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+footer span {
+    margin-right: 166px;
+}
+
+.das {
+    margin-left: 401px;
+}
+
+.das a {
+    margin-right: 15px;
+}
