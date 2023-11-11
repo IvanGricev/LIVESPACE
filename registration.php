@@ -31,7 +31,7 @@ if (check_auth()) {
                 <ul class="nav">
                     <li><span><a href="index.php"><img src="img/LIVESPACE.png" alt=""></a></span></li>
                     <li><a href="index.php">Планеты </a></li>
-                    <li><a href="rockets.php">Ракеты</a></li>
+                    <li><a href="">Ракеты</a></li>
                     <li><a href="news.php">новости</a></li>
                 </ul>
                 <ul class="nav">

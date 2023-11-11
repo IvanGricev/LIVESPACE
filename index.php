@@ -30,7 +30,7 @@ $user = null;
                 <ul class="nav me-auto">
                     <li class="nav-item"><span><a href="index.php"><img src="img/LIVESPACE.png" alt=""></a></span></li>
                     <li class="nav-item"><a href="index.php">Планеты </a></li>
-                    <li class="nav-item"><a href="rockets.php">Ракеты</a></li>
+                    <li class="nav-item"><a href="">Ракеты</a></li>
                     <li class="nav-item"><a href="news.php">новости</a></li>
                 </ul>
                 <ul class="nav">
@@ -82,7 +82,7 @@ $user = null;
             </div>
 
             <div class="stroenie textA">
-                <p>
+                <p class="w-50">
                     <span>Cтроение Земли<br></span> Земля относится к планетам земной группы, и в отличие от газовых гигантов, таких как Юпитер, имеет твёрдую поверхность. Это крупнейшая из четырёх планет земной группы в Солнечной системе, как по размеру, так
                     и по массе. Кроме того, Земля среди этих четырёх планет имеет наибольшие плотность, поверхностную гравитацию и магнитное поле[83]. Это единственная известная планета с активной тектоникой плит.
                 </p>
