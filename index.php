@@ -92,7 +92,7 @@ $user = null;
                         </div>
                         </div>
                     </div>
-                    <div class="carousel-item" bis_skin_checked="1">
+                    <div class="carousel-item it" bis_skin_checked="1">
                         <svg class="bd-placeholder-img" width="100%" height="100%" ulr="img/Venera-e1543347318996 1 (1).png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-main-color)"></rect></svg>
                         <div class="container" bis_skin_checked="1">
                         <div class="carousel-caption text-end" bis_skin_checked="1">
@@ -102,7 +102,7 @@ $user = null;
                         </div>
                         </div>
                     </div>
-                    <div class="carousel-item" bis_skin_checked="1">
+                    <div class="carousel-item it" bis_skin_checked="1">
                         <svg class="bd-placeholder-img" width="100%" height="100%" ulr="img/Venera-e1543347318996 1 (1).png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-main-color)"></rect></svg>
                         <div class="container" bis_skin_checked="1">
                         <div class="carousel-caption" bis_skin_checked="1">
@@ -112,7 +112,7 @@ $user = null;
                         </div>
                         </div>
                     </div>
-                    <div class="carousel-item" bis_skin_checked="1">
+                    <div class="carousel-item it" bis_skin_checked="1">
                         <svg class="bd-placeholder-img" width="100%" height="100%" ulr="img/Venera-e1543347318996 1 (1).png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-main-color)"></rect></svg>
                         <div class="container" bis_skin_checked="1">
                         <div class="carousel-caption text-start" bis_skin_checked="1">
@@ -122,7 +122,7 @@ $user = null;
                         </div>
                         </div>
                     </div>
-                    <div class="carousel-item" bis_skin_checked="1">
+                    <div class="carousel-item it" bis_skin_checked="1">
                         <svg class="bd-placeholder-img" width="100%" height="100%" ulr="img/Venera-e1543347318996 1 (1).png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-main-color)"></rect></svg>
                         <div class="container" bis_skin_checked="1">
                         <div class="carousel-caption" bis_skin_checked="1">
@@ -132,7 +132,7 @@ $user = null;
                         </div>
                         </div>
                     </div>
-                    <div class="carousel-item" bis_skin_checked="1">
+                    <div class="carousel-item it" bis_skin_checked="1">
                         <svg class="bd-placeholder-img" width="100%" height="100%" ulr="img/Venera-e1543347318996 1 (1).png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-main-color)"></rect></svg>
                         <div class="container" bis_skin_checked="1">
                         <div class="carousel-caption  text-end" bis_skin_checked="1">
@@ -142,7 +142,7 @@ $user = null;
                         </div>
                         </div>
                     </div>
-                    <div class="carousel-item" bis_skin_checked="1">
+                    <div class="carousel-item it" bis_skin_checked="1">
                         <svg class="bd-placeholder-img" width="100%" height="100%" ulr="img/Venera-e1543347318996 1 (1).png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-main-color)"></rect></svg>
                         <div class="container" bis_skin_checked="1">
                         <div class="carousel-caption" bis_skin_checked="1">
