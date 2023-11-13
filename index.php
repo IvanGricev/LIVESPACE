@@ -96,7 +96,7 @@ $user = null;
                         <svg class="bd-placeholder-img" width="100%" height="100%" ulr="img/Venera-e1543347318996 1 (1).png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-main-color)"></rect></svg>
                         <div class="container" bis_skin_checked="1">
                         <div class="carousel-caption text-end" bis_skin_checked="1">
-                            <h1>Земля.</h1>
+                            <p><h1>Земля.</h1></p>
                             <p>Третья по удалённости от Солнца планета Солнечной системы.</p>
                             <p><a class="btn btn-lg btn-warning" href="#">Больше</a></p>
                         </div>
@@ -106,7 +106,7 @@ $user = null;
                         <svg class="bd-placeholder-img" width="100%" height="100%" ulr="img/Venera-e1543347318996 1 (1).png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-main-color)"></rect></svg>
                         <div class="container" bis_skin_checked="1">
                         <div class="carousel-caption" bis_skin_checked="1">
-                            <h1>Марс.</h1>
+                            <p><h1>Марс.</h1></p>
                             <p>Четвёртая по удалённости от Солнца и седьмая по размеру планета Солнечной системы.</p>
                             <p><a class="btn btn-lg btn-warning" href="#">Больше</a></p>
                         </div>
@@ -116,7 +116,7 @@ $user = null;
                         <svg class="bd-placeholder-img" width="100%" height="100%" ulr="img/Venera-e1543347318996 1 (1).png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-main-color)"></rect></svg>
                         <div class="container" bis_skin_checked="1">
                         <div class="carousel-caption text-start" bis_skin_checked="1">
-                            <h1>Юпитер.</h1>
+                            <p><h1>Юпитер.</h1></p>
                             <p>Пятая планета от Солнца и самая большая в Солнечной системе.</p>
                             <p><a class="btn btn-lg btn-warning" href="#">Больше</a></p>
                         </div>
@@ -126,7 +126,7 @@ $user = null;
                         <svg class="bd-placeholder-img" width="100%" height="100%" ulr="img/Venera-e1543347318996 1 (1).png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-main-color)"></rect></svg>
                         <div class="container" bis_skin_checked="1">
                         <div class="carousel-caption" bis_skin_checked="1">
-                            <h1>Сатурн.</h1>
+                            <p><h1>Сатурн.</h1></p>
                             <p>Шестая планета от Солнца и вторая по размерам планета в Солнечной системе после Юпитера.</p>
                             <p><a class="btn btn-lg btn-warning" href="#">Больше</a></p>
                         </div>
@@ -136,7 +136,7 @@ $user = null;
                         <svg class="bd-placeholder-img" width="100%" height="100%" ulr="img/Venera-e1543347318996 1 (1).png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-main-color)"></rect></svg>
                         <div class="container" bis_skin_checked="1">
                         <div class="carousel-caption  text-end" bis_skin_checked="1">
-                            <h1>Уран.</h1>
+                            <p><h1>Уран.</h1></p>
                             <p>Седьмая планета Солнечной системы, третья по диаметру и четвёртая по массе.</p>
                             <p><a class="btn btn-lg btn-warning" href="#">Больше</a></p>
                         </div>
@@ -146,7 +146,7 @@ $user = null;
                         <svg class="bd-placeholder-img" width="100%" height="100%" ulr="img/Venera-e1543347318996 1 (1).png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-main-color)"></rect></svg>
                         <div class="container" bis_skin_checked="1">
                         <div class="carousel-caption" bis_skin_checked="1">
-                            <h1>Нептун.</h1>
+                            <p><h1>Нептун.</h1></p>
                             <p>Восьмая и самая дальняя от Солнца и Земли планета Солнечной системы.</p>
                             <p><a class="btn btn-lg btn-warning" href="#">Больше</a></p>
                         </div>
