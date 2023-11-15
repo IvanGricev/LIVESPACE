@@ -30,8 +30,8 @@ if (check_auth()) {
                 <ul class="nav me-auto">
                     <li class="nav-item"><span><a href="index.php"><img src="img/LIVESPACE.png" alt=""></a></span></li>
                     <li class="nav-item"><a href="index.php" class="px-3 fw-bold" >Планеты </a></li>
-                    <li class="nav-item"><a href="" class="px-3 fw-bold">Ракеты</a></li>
-                    <li class="nav-item"><a href="news.php" class="px-3 fw-bold">новости</a></li>
+                    <li class="nav-item"><a href="flight_fares.php" class="px-3 fw-bold">Перелёты</a></li>
+                    <li class="nav-item"><a href="news.php" class="px-3 fw-bold">История</a></li>
                 </ul>
                 <ul class="nav">
                     <?php if (!isset($_SESSION['user_id'])): ?>
@@ -51,7 +51,7 @@ if (check_auth()) {
                     <?php endif; ?>
                 </ul>
             </nav>
-            <a href="index.php">Главная </a> - <a href="">Новости</a>
+            <a href="index.php">Главная </a> - <a href="">История</a>
         </div>
     </header>
 
@@ -117,10 +117,10 @@ if (check_auth()) {
     <footer class="container pb-3">
         <div class="nav">
             <ul class="nav me-auto">
-                <li class="nav-item"><a href="index_up.php"><img src="img/LIVESPACE.png" alt=""></a></li>
-                <li class="nav-item pl-3"><a href="index_planets.php" class="px-2">Планеты </a></li>
-                <li class="nav-item pl-3"><a href="index_rockets.php" class="px-2">Ракеты</a></li>
-                <li class="nav-item pl-3"><a href="index_news.php" class="px-2">новости</a></li>
+                <li class="nav-item"><a href="index.php"><img src="img/LIVESPACE.png" alt=""></a></li>
+                <li class="nav-item pl-3"><a href="planets.php" class="px-2">Планеты </a></li>
+                <li class="nav-item pl-3"><a href="flight_fares.php" class="px-2">Перелёты</a></li>
+                <li class="nav-item pl-3"><a href="news.php" class="px-2">История</a></li>
             </ul>
             <ul class="nav ml-3">
                 <li class="nav-item"><a href="" class="px-2"><img src="img/Vector (1).png" alt=""></a></li>    

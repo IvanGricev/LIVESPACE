@@ -30,8 +30,8 @@ $user = null;
                 <ul class="nav me-auto">
                     <li class="nav-item"><span><a href="index.php"><img src="img/LIVESPACE.png" alt=""></a></span></li>
                     <li class="nav-item"><a href="index.php" class="px-3 fw-bold" >Планеты </a></li>
-                    <li class="nav-item"><a href="rockers.php" class="px-3 fw-bold">Перелёты</a></li>
-                    <li class="nav-item"><a href="news.php" class="px-3 fw-bold">новости</a></li>
+                    <li class="nav-item"><a href="" class="px-3 fw-bold">Перелёты</a></li>
+                    <li class="nav-item"><a href="news.php" class="px-3 fw-bold">История</a></li>
                 </ul>
                 <ul class="nav">
                     <?php if (!isset($_SESSION['user_id'])): ?>
@@ -51,7 +51,7 @@ $user = null;
                     <?php endif; ?>
                 </ul>
             </nav>
-            <a href="index.php">Главная - Земля</a>
+            <a href="index.php">Главная -</a><a href=""> Перелёты</a>
         </div>
     </header>
     
@@ -65,17 +65,16 @@ $user = null;
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
                 </div>
                 <div class="carousel-inner  bg-black it" bis_skin_checked="1">
                     <div class="carousel-item active it" bis_skin_checked="1">
                         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="font.svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-main-color)"></rect></svg>
                         <div class="container" bis_skin_checked="1">
                             <div class="carousel-caption text-start" bis_skin_checked="1">
-                                <p><h1 class="opacity-100">Меркурий.</h1></p>
-                                <p class="opacity-75">Ближайшая к солнцу планета в солнечной системы наименьшая из планет земной группы.</p>
+                                <p><h1 class="opacity-100">Эконом перелёты.</h1></p>
+                                <p class="opacity-75">
+                                    Это наиболее доступный вариант перелета на ракете, обычно предлагающий минимальные услуги и комфорт.
+                                </p>
                                 <p><a class="btn btn-lg btn-warning" href="#">Больше</a></p>
                             </div>
                         </div>
@@ -84,8 +83,8 @@ $user = null;
                         <svg class="bd-placeholder-img" width="100%" height="100%" ulr="img/Venera-e1543347318996 1 (1).png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-main-color)"></rect></svg>
                         <div class="container" bis_skin_checked="1">
                         <div class="carousel-caption" bis_skin_checked="1">
-                            <p><h1>Венера.</h1></p>
-                            <p>Вторая по удалённости от Солнца и шестая по размеру планета Солнечной системы.</p>
+                            <p><h1>Чартерные перелёты.</h1></p>
+                            <p>Это специфический тип перелета, в котором пассажиры берут билеты на определенные даты и рейсы.</p>
                             <p><a class="btn btn-lg btn-warning" href="#">Больше</a></p>
                         </div>
                         </div>
@@ -94,8 +93,8 @@ $user = null;
                         <svg class="bd-placeholder-img" width="100%" height="100%" ulr="img/Venera-e1543347318996 1 (1).png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-main-color)"></rect></svg>
                         <div class="container" bis_skin_checked="1">
                         <div class="carousel-caption text-end" bis_skin_checked="1">
-                            <p><h1>Земля.</h1></p>
-                            <p>Третья по удалённости от Солнца планета Солнечной системы.</p>
+                            <p><h1>Бизнес перелёты.</h1></p>
+                            <p>Это класс, предназначенный для бизнес-путешественников, которые ищут комфорт и удобства, такие как дополнительное пространство и связь для работы и доступ к бизнес-классу на космодроме.</p>
                             <p><a class="btn btn-lg btn-warning" href="#">Больше</a></p>
                         </div>
                         </div>
@@ -104,8 +103,8 @@ $user = null;
                         <svg class="bd-placeholder-img" width="100%" height="100%" ulr="img/Venera-e1543347318996 1 (1).png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-main-color)"></rect></svg>
                         <div class="container" bis_skin_checked="1">
                         <div class="carousel-caption" bis_skin_checked="1">
-                            <p><h1>Марс.</h1></p>
-                            <p>Четвёртая по удалённости от Солнца и седьмая по размеру планета Солнечной системы.</p>
+                            <p><h1>Люкс перелёты.</h1></p>
+                            <p>Этот класс предлагает наиболее роскошные услуги и комфорт, включая большие и удобные кресла, дополнительное пространство для работы, доступ к бизнес-классу, более быстрой связи и другие дополнительные услуги.</p>
                             <p><a class="btn btn-lg btn-warning" href="#">Больше</a></p>
                         </div>
                         </div>
@@ -114,38 +113,8 @@ $user = null;
                         <svg class="bd-placeholder-img" width="100%" height="100%" ulr="img/Venera-e1543347318996 1 (1).png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-main-color)"></rect></svg>
                         <div class="container" bis_skin_checked="1">
                         <div class="carousel-caption text-start" bis_skin_checked="1">
-                            <p><h1>Юпитер.</h1></p>
-                            <p>Пятая планета от Солнца и самая большая в Солнечной системе.</p>
-                            <p><a class="btn btn-lg btn-warning" href="#">Больше</a></p>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item it" bis_skin_checked="1">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" ulr="img/Venera-e1543347318996 1 (1).png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-main-color)"></rect></svg>
-                        <div class="container" bis_skin_checked="1">
-                        <div class="carousel-caption" bis_skin_checked="1">
-                            <p><h1>Сатурн.</h1></p>
-                            <p>Шестая планета от Солнца и вторая по размерам планета в Солнечной системе после Юпитера.</p>
-                            <p><a class="btn btn-lg btn-warning" href="#">Больше</a></p>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item it" bis_skin_checked="1">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" ulr="img/Venera-e1543347318996 1 (1).png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-main-color)"></rect></svg>
-                        <div class="container" bis_skin_checked="1">
-                        <div class="carousel-caption  text-end" bis_skin_checked="1">
-                            <p><h1>Уран.</h1></p>
-                            <p>Седьмая планета Солнечной системы, третья по диаметру и четвёртая по массе.</p>
-                            <p><a class="btn btn-lg btn-warning" href="#">Больше</a></p>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item it" bis_skin_checked="1">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" ulr="img/Venera-e1543347318996 1 (1).png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-main-color)"></rect></svg>
-                        <div class="container" bis_skin_checked="1">
-                        <div class="carousel-caption" bis_skin_checked="1">
-                            <p><h1>Нептун.</h1></p>
-                            <p>Восьмая и самая дальняя от Солнца и Земли планета Солнечной системы.</p>
+                            <p><h1>Пеерелёты первого класса.</h1></p>
+                            <p>Этот класс предлагает самый высокий уровень комфорта и услуг, включая наиболее роскошные кресла и отдельные каюты, дополнительное пространство для работы, максимальная скорость связи, доступ к бизнес-классу и другие дополнительные услуги.</p>
                             <p><a class="btn btn-lg btn-warning" href="#">Больше</a></p>
                         </div>
                         </div>
