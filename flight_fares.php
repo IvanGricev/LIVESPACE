@@ -113,7 +113,7 @@ $user = null;
                         <svg class="bd-placeholder-img" width="100%" height="100%" ulr="img/Venera-e1543347318996 1 (1).png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-main-color)"></rect></svg>
                         <div class="container" bis_skin_checked="1">
                         <div class="carousel-caption text-start" bis_skin_checked="1">
-                            <p><h1>Пеерелёты первого класса.</h1></p>
+                            <p><h1>Перелёты первого класса.</h1></p>
                             <p>Этот класс предлагает самый высокий уровень комфорта и услуг, включая наиболее роскошные кресла и отдельные каюты, дополнительное пространство для работы, максимальная скорость связи, доступ к бизнес-классу и другие дополнительные услуги.</p>
                             <p><a class="btn btn-lg btn-warning" href="#">Больше</a></p>
                         </div>
