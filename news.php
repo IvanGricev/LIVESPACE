@@ -85,14 +85,14 @@ if (check_auth()) {
                 Прототип Starship — ракеты Илона Маска для полетов на Марс и Луну — впервые успешно приземлился. Когда стихли аплодисменты, он взорвался
             </div>
             <div class="pt-3 pb-3">
-                <img src="img/rocket.jpeg" alt="">
+                <img src="img/rocket.jpeg" alt="" width="100%">
             </div>
 
             <p class="pt-3 pb-3">
                 Прототип космического корабля Starship, разработанного компанией SpaceX Илона Маска для полетов на Марс и Луну, впервые приземлился в ходе летных испытаний, прошедших в Бока-Чика в Техасе 3 марта (в ночь на 4 марта по Москве).
             </p>
             <div class="pt-3 pb-3">
-                <iframe width="740" height="420" src="https://www.youtube.com/embed/ODY6JWzS8WU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="420" src="https://www.youtube.com/embed/ODY6JWzS8WU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <p class="pt-3 pb-3">
                 Десятый серийный испытательный аппарат Starship SN10 в этот день пытались запустить дважды. Но первый пуск остановили меньше чем за одну секунду до старта из-за слишком большой тяги одного из двигателей. Старт отложили, когда двигатели уже запустились.
@@ -102,7 +102,7 @@ if (check_auth()) {
                 двигатели, вернулась в вертикальное положение и в отличие от двух предыдущих испытаний, когда восьмой и девятый прототипы взорвались при ударе о землю, в этот раз Starship целым опустился на посадочную стойку и остался стоять, слегка накренившись.
             </p>
             <div class="pt-3 pb-3">
-                <img src="img/tragectory.png" alt="">
+                <img src="img/tragectory.png" alt="" width="100%">
             </div>
             <p class="fw-light">
                 Траекторию полета ракеты хорошо видно в коллаже фотографа Джека Бейера. Чтобы лучше увидеть снимок, нажмите на твит.
