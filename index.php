@@ -51,7 +51,7 @@ $user = null;
                     <?php endif; ?>
                 </ul>
             </nav>
-            <a href="index.php">Главная - Земля</a>
+            <a href="index.php">Главная</a>
         </div>
     </header>
     
@@ -76,7 +76,7 @@ $user = null;
                             <div class="carousel-caption text-start" bis_skin_checked="1">
                                 <p><h1 class="opacity-100">Меркурий.</h1></p>
                                 <p class="opacity-75">Ближайшая к солнцу планета в солнечной системы наименьшая из планет земной группы.</p>
-                                <p><a class="btn btn-lg btn-warning" href="mercury.php">Больше</a></p>
+                                <p><a class="btn btn-lg btn-warning" href="https://en.wikipedia.org/wiki/Mercury_(planet)">Больше</a></p>
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@ $user = null;
                         <div class="carousel-caption" bis_skin_checked="1">
                             <p><h1>Венера.</h1></p>
                             <p>Вторая по удалённости от Солнца и шестая по размеру планета Солнечной системы.</p>
-                            <p><a class="btn btn-lg btn-warning" href="venuce.php">Больше</a></p>
+                            <p><a class="btn btn-lg btn-warning" href="https://en.wikipedia.org/wiki/Venus">Больше</a></p>
                         </div>
                         </div>
                     </div>
@@ -96,7 +96,7 @@ $user = null;
                         <div class="carousel-caption text-end" bis_skin_checked="1">
                             <p><h1>Земля.</h1></p>
                             <p>Третья по удалённости от Солнца планета Солнечной системы.</p>
-                            <p><a class="btn btn-lg btn-warning" href="">Больше</a></p>
+                            <p><a class="btn btn-lg btn-warning" href="https://en.wikipedia.org/wiki/Earth">Больше</a></p>
                         </div>
                         </div>
                     </div>
@@ -106,7 +106,7 @@ $user = null;
                         <div class="carousel-caption" bis_skin_checked="1">
                             <p><h1>Марс.</h1></p>
                             <p>Четвёртая по удалённости от Солнца и седьмая по размеру планета Солнечной системы.</p>
-                            <p><a class="btn btn-lg btn-warning" href="mars.php">Больше</a></p>
+                            <p><a class="btn btn-lg btn-warning" href="https://en.wikipedia.org/wiki/Mars">Больше</a></p>
                         </div>
                         </div>
                     </div>
@@ -116,7 +116,7 @@ $user = null;
                         <div class="carousel-caption text-start" bis_skin_checked="1">
                             <p><h1>Юпитер.</h1></p>
                             <p>Пятая планета от Солнца и самая большая в Солнечной системе.</p>
-                            <p><a class="btn btn-lg btn-warning" href="jupiter.php">Больше</a></p>
+                            <p><a class="btn btn-lg btn-warning" href="https://en.wikipedia.org/wiki/Jupiter">Больше</a></p>
                         </div>
                         </div>
                     </div>
@@ -126,7 +126,7 @@ $user = null;
                         <div class="carousel-caption" bis_skin_checked="1">
                             <p><h1>Сатурн.</h1></p>
                             <p>Шестая планета от Солнца и вторая по размерам планета в Солнечной системе после Юпитера.</p>
-                            <p><a class="btn btn-lg btn-warning" href="saturn.php">Больше</a></p>
+                            <p><a class="btn btn-lg btn-warning" href="https://en.wikipedia.org/wiki/Saturn">Больше</a></p>
                         </div>
                         </div>
                     </div>
@@ -136,7 +136,7 @@ $user = null;
                         <div class="carousel-caption  text-end" bis_skin_checked="1">
                             <p><h1>Уран.</h1></p>
                             <p>Седьмая планета Солнечной системы, третья по диаметру и четвёртая по массе.</p>
-                            <p><a class="btn btn-lg btn-warning" href="uran.php">Больше</a></p>
+                            <p><a class="btn btn-lg btn-warning" href="https://en.wikipedia.org/wiki/Uranus">Больше</a></p>
                         </div>
                         </div>
                     </div>
@@ -146,7 +146,7 @@ $user = null;
                         <div class="carousel-caption" bis_skin_checked="1">
                             <p><h1>Нептун.</h1></p>
                             <p>Восьмая и самая дальняя от Солнца и Земли планета Солнечной системы.</p>
-                            <p><a class="btn btn-lg btn-warning" href="neptune.php">Больше</a></p>
+                            <p><a class="btn btn-lg btn-warning" href="https://en.wikipedia.org/wiki/Neptune">Больше</a></p>
                         </div>
                         </div>
                     </div>
@@ -174,13 +174,13 @@ $user = null;
             </div>
 
             <div class="how textA pb-5">
-                <h2>Как земля образовалась?</h2>
+                <h2>Хотите улететь с земли?</h2>
                 <p class="">Современной научной гипотезой формирования Земли и других планет Солнечной системы является гипотеза солнечной туманности, по которой Солнечная система образовалась из большого облака межзвёздной пыли и газа. Облако состояло главным образом
                     из водорода и гелия, которые образовались после Большого взрыва, и более тяжёлых элементов, оставленных взрывами сверхновых. Примерно 4,5 млрд лет назад облако стало сжиматься, что, вероятно, произошло из-за воздействия ударной волны от
                     вспыхнувшей на расстоянии нескольких световых лет сверхновой. Когда облако начало сокращаться, его угловой момент, гравитация и инерция сплюснули его в протопланетный диск перпендикулярно к его оси вращения. После этого обломки в протопланетном
                     диске под действием силы притяжения стали сталкиваться, и, сливаясь, образовывали первые планетоиды.</p>
             </div>
-
+        <!--
             <div class="stroenie textA pb-5">
                 <h2> Cтроение Земли</h2>
                 <p class="w-50 pb-3">
@@ -189,7 +189,7 @@ $user = null;
                 </p>
                 <img src="img/shear_properties_of_inner_core_by_j_waves_1_703 2.png" alt="">
             </div>
-
+        -->
             <div class="earchh textA pb-5">
                 <h2>Спутником земли является луна</h2>
                 <div class="earchimg">
@@ -200,6 +200,7 @@ $user = null;
                 </div>
             </div>
         </div>
+
     </main>
 
     <footer class="container pb-3">
