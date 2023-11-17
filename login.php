@@ -30,7 +30,7 @@ if (check_auth()) {
             <nav class="nav pb-1">
                 <ul class="nav me-auto">
                     <li class="nav-item"><span><a href="index.php"><img src="img/LIVESPACE.png" alt=""></a></span></li>
-                    <li class="nav-item"><a href="index.php" class="px-3 fw-bold" >Планеты </a></li>
+                    <!--<li class="nav-item"><a href="index.php" class="px-3 fw-bold" >Планеты </a></li>-->
                     <li class="nav-item"><a href="flight_fares.hph" class="px-3 fw-bold">Перелёты</a></li>
                     <li class="nav-item"><a href="news.php" class="px-3 fw-bold">новости</a></li>
                 </ul>
@@ -85,7 +85,7 @@ if (check_auth()) {
         <div class="nav">
             <ul class="nav me-auto">
                 <li class="nav-item"><a href="index.php"><img src="img/LIVESPACE.png" alt=""></a></li>
-                <li class="nav-item pl-3"><a href="planets.php" class="px-2">Планеты </a></li>
+                <!--<li class="nav-item pl-3"><a href="planets.php" class="px-2">Планеты </a></li>-->
                 <li class="nav-item pl-3"><a href="flight_fares.php" class="px-2">Перелёты</a></li>
                 <li class="nav-item pl-3"><a href="news.php" class="px-2">История</a></li>
             </ul>
