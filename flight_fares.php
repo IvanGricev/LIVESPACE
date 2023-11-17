@@ -75,7 +75,6 @@ $user = null;
                                 <p class="opacity-75">
                                     Это наиболее доступный вариант перелета на ракете, обычно предлагающий минимальные услуги и комфорт.
                                 </p>
-                                <p><a class="btn btn-lg btn-warning" href="#">Больше</a></p>
                             </div>
                         </div>
                     </div>
@@ -85,7 +84,6 @@ $user = null;
                         <div class="carousel-caption" bis_skin_checked="1">
                             <p><h1>Чартерные перелёты.</h1></p>
                             <p>Это специфический тип перелета, в котором пассажиры берут билеты на определенные даты и рейсы.</p>
-                            <p><a class="btn btn-lg btn-warning" href="#">Больше</a></p>
                         </div>
                         </div>
                     </div>
@@ -95,7 +93,6 @@ $user = null;
                         <div class="carousel-caption text-end" bis_skin_checked="1">
                             <p><h1>Бизнес перелёты.</h1></p>
                             <p>Это класс, предназначенный для бизнес-путешественников, которые ищут комфорт и удобства, такие как дополнительное пространство и связь для работы и доступ к бизнес-классу на космодроме.</p>
-                            <p><a class="btn btn-lg btn-warning" href="#">Больше</a></p>
                         </div>
                         </div>
                     </div>
@@ -105,7 +102,6 @@ $user = null;
                         <div class="carousel-caption" bis_skin_checked="1">
                             <p><h1>Люкс перелёты.</h1></p>
                             <p>Этот класс предлагает наиболее роскошные услуги и комфорт, включая большие и удобные кресла, дополнительное пространство для работы, доступ к бизнес-классу, более быстрой связи и другие дополнительные услуги.</p>
-                            <p><a class="btn btn-lg btn-warning" href="#">Больше</a></p>
                         </div>
                         </div>
                     </div>
@@ -115,7 +111,6 @@ $user = null;
                         <div class="carousel-caption text-start" bis_skin_checked="1">
                             <p><h1>Перелёты первого класса.</h1></p>
                             <p>Этот класс предлагает самый высокий уровень комфорта и услуг, включая наиболее роскошные кресла и отдельные каюты, дополнительное пространство для работы, максимальная скорость связи, доступ к бизнес-классу и другие дополнительные услуги.</p>
-                            <p><a class="btn btn-lg btn-warning" href="#">Больше</a></p>
                         </div>
                         </div>
                     </div>
@@ -175,7 +170,7 @@ $user = null;
         <div class="container pb-3">
             <div class="box text-white">
             <div class="form-del">
-                <h2>Форма заказа перевозки</h2>
+                <h2>Форма заказа перелёта</h2>
 
                 <div class="w-75">
                 <?php flash(); ?> 
@@ -183,7 +178,7 @@ $user = null;
 
                 <form id="deliveryForm" action='do_delivery.php' method='post'>
                 <?php if (!isset($_SESSION['user_id'])): ?>
-                    <h3 class="Alarm">Для заказа необходимо войти в учётную запись!</h3>
+                    <h3 class="alarm w-50 reds">Для заказа необходимо войти в учётную запись!</h3>
                 <?php else: ?>
                     <input type="hidden" id="email" name="email" value="<?php echo $_SESSION['user_id']; ?>">
                 <?php endif; ?>
@@ -221,14 +216,13 @@ $user = null;
                     <option value="Нептун">Нептун</option>
                 </select><br>
 
-                <!--
-                <label for="deliveryAddress" class="fs-4 pt-2">Адрес доставки:</label><br>
-                <input type="text" id="addresD" name="addresD" class="w-25"><br>
-                -->
+                <label for="deliveryAddress" class="fs-4 pt-2">Дата вылета:</label><br>
+                <input type="date" id="date" name="date" class="w-25"><br>
+                
                 <?php if (!isset($_SESSION['user_id'])):?>
-                    <div class="bntBlocked btn-lg btn-warning pt-2" href="#">Подтвердить</div>
+                    <p class="pt-2 pb-3"><a class="btn btn-lg btn-warning" href="#">Подтвердить</a></p>
                 <?php else: ?>
-                    <button type="submit" class="btn-lg btn-warning" href="#">Подтвердить</button>
+                    <p class="pt-2 pb-3"><button type="submit" class="btn btn-lg btn-warning" href="#">Подтвердить</button></p>
                 <?php endif; ?>
                 </form>
             </div>

@@ -96,3 +96,13 @@ a{
 .it{
   height: 300px;
 }
+
+.alarm{
+  background-color: #ff0800;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  width: 230px;
+}
