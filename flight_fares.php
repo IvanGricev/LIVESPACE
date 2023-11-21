@@ -173,10 +173,10 @@ $user = null;
                 <h2>Форма заказа перелёта</h2>
 
                 <div class="w-75">
-                <?php flash(); ?> 
+                <?php Oflash(); ?> 
                 </div> 
 
-                <form id="deliveryForm" action='do_delivery.php' method='post'>
+                <form id="deliveryForm" action='do_order.php' method='post'>
                 <?php if (!isset($_SESSION['user_id'])): ?>
                     <h3 class="alarm w-50 reds">Для заказа необходимо войти в учётную запись!</h3>
                 <?php else: ?>

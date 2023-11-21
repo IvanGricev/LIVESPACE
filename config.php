@@ -27,3 +27,17 @@ function check_auth(): bool
 {
     return !!($_SESSION['user_email'] ?? false);
 }
+
+function Oflash(?string $message = null)
+{
+    if ($message) {
+        $_SESSION['Oflash'] = $message;
+    } else {
+        if (!empty($_SESSION['Oflash'])) { ?>
+          <div class="alert alert-danger mb-3">
+              <?=$_SESSION['Oflash']?>
+          </div>
+        <?php }
+        unset($_SESSION['Oflash']);
+    }
+}
