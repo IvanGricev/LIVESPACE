@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $planet = $_POST['planet'];
     $tarif = $_POST["tarif"];
     $date = $_POST["date"];
-    $planetL = $_POST("planetL");
+    $planetL = $_POST["planetL"];
     $dateT = date('Y-m-d');
   
    if ($dateT >= $date) {
@@ -25,9 +25,9 @@ $stmt = $pdo->prepare("INSERT INTO `orders` (`email`, `planet`, `tarif`, `date`,
 $stmt->execute([
     'email' => $email,
     'planet' => $planet,
+    'planetL'=> $planetL,
     'tarif' => $tarif,
     'date' => $date,
-    'planetL'=> $planetL,
 ]);
 
 Oflash("Заказ прошел успешно");

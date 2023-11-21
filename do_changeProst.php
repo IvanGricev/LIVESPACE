@@ -1,12 +1,11 @@
 <?php
 require_once __DIR__.'/config.php';
-
-$stmt = $pdo->prepare("UPDATE `orders` SET `dateD` = :dateD, `approved` = :approved, `emailV` = :emailV WHERE `id` = :id");
+//$email = $_POST['email'];
+//`email` = :email,
+$stmt = $pdo->prepare("UPDATE `orders` SET `approved` = :approved");
 $stmt->execute([
-  'dateD' => $_POST['dateD'],
-  'approved' => isset($_POST['approved']) ? 1 : 0,
-  'emailV'=> $_POST['emailV'],
-  'id' => $_POST['id'],
+  //'email' => $_POST['email'],
+  'approved'=> $_POST['approved'],
 ]);
 flash("Успешно изменено");
 header('Location: admin.php');

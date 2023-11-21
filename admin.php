@@ -124,14 +124,14 @@
            elseif ($table === 'orders') {
                $sql = "SELECT email, planetL, planet, tarif, date, approved, id FROM orders ORDER BY $sortColumn $sortOrder";
                if ($result = $pdo->query($sql)) {
-                  echo "<form method='post' action='dopostDC.php'>";
+                  echo "<form method='post' action='do_changeProst.php'>";
                   echo "<table><tr>";
                   echo "<th><a href='?sort=email&order=" . ($sortColumn === 'email' && $sortOrder === 'ASC' ? 'desc' : 'asc') . "'>Email</a></th>";
                   echo "<th><a href='?sort=planetL&order=" . ($sortColumn === 'planetL' && $sortOrder === 'ASC' ? 'desc' : 'asc') . "'>Планета вылета</a></th>";
                   echo "<th><a href='?sort=planet&order=" . ($sortColumn === 'planet' && $sortOrder === 'ASC' ? 'desc' : 'asc') . "'>Планета прилета</a></th>";
                   echo "<th><a href='?sort=tarif&order=" . ($sortColumn === 'tarif' && $sortOrder === 'ASC' ? 'desc' : 'asc') . "'>Тариф</a></th>";
-                  echo "<th><a href='?sort=date&order=" . ($sortColumn === 'date' && $sortOrder === 'ASC' ? 'desc' : 'asc') . "'>Дата</a></th>";
-                  echo "<th><a href='?sort=approved&order=" . ($sortColumn === 'approved' && $sortOrder === 'ASC' ? 'desc' : 'asc') . "'>Взят</a></th>";
+                  echo "<th>Дата</th>";
+                  echo "<th>Взят</th>";
                   echo "<th><a href='?sort=id&order=" . ($sortColumn === 'id' && $sortOrder === 'ASC' ? 'desc' : 'asc') . "'>Id</a></th>";
                   echo "</tr>";
                   foreach ($result as $row) {
@@ -141,7 +141,7 @@
                     echo "<td>" . $row["planetL"] . "</td>";
                     echo "<td>" . $row["planet"] . "</td>";
                     echo "<td>" . $row["tarif"] . "</td>";
-                    echo "<td>". $row["date"] . "</td>";
+                    echo "<td>" . $row["date"] . "</td>";
                     echo "<td>" . $row["approved"] . "</td>";
                     echo "<td><input type='checkbox' name='approved'" . ($row["approved"] ? " checked" : "") . "></td>";
                     echo "<td><input type='submit' value='Обновить'></td>";
