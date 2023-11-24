@@ -142,7 +142,9 @@
                     echo "<td>" . $row["planet"] . "</td>";
                     echo "<td>" . $row["tarif"] . "</td>";
                     echo "<td>" . $row["date"] . "</td>";
-                    echo "<td>" . $row["approved"] . "</td>";
+                    echo "<td>" . $row["id"] . "</td>";
+                    //echo "<td><input type='checkbox' name='approved'" . ($row["approved"] ? " checked" : "") . "></td>";
+                    //echo "<td><button type='submit' class='btn btn-outline-warning'>Обновить</button></td>";
                     echo "<td><input type='checkbox' name='approved'" . ($row["approved"] ? " checked" : "") . "></td>";
                     echo "<td><input type='submit' value='Обновить'></td>";
                     echo "</tr>";

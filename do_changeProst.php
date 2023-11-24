@@ -5,7 +5,7 @@ require_once __DIR__.'/config.php';
 $stmt = $pdo->prepare("UPDATE `orders` SET `approved` = :approved");
 $stmt->execute([
   //'email' => $_POST['email'],
-  'approved'=> $_POST['approved'],
+  'approved' => isset($_POST['approved']) ? 1 : 0,
 ]);
 flash("Успешно изменено");
 header('Location: admin.php');
