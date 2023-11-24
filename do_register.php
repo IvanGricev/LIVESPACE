@@ -4,7 +4,7 @@ require_once __DIR__.'/config.php';
 $stmt = $pdo->prepare("SELECT * FROM `users` WHERE `email` = :email");
 $stmt->execute(['email' => $_POST['email']]);
 if ($stmt->rowCount() > 0) {
-    flash('Пользователь с такой почтой уже зарегистрирован.');
+    Rflash('Пользователь с такой почтой уже зарегистрирован.');
     header('Location: registration.php');
     die;
 }
@@ -22,25 +22,25 @@ function validateEmail($email) {
     ];
 
     $emailDomain = explode('@', $email)[1];
-    flash("Домен почты должен быть из списка разрешенных (gmail.com, rambler.ru, mail.ru, yahoo.com, outlook.com).") ; 
+    Rflash("Домен почты должен быть из списка разрешенных (gmail.com, rambler.ru, mail.ru, yahoo.com, outlook.com).") ; 
     return in_array($emailDomain, $allowedDomains);
 }
 
 function validatePassword($password) {
     if (!preg_match('/[a-z]/', $password)) {
-        flash("Пароль должен включать букву нижнего регистра.") ; 
+        Rflash("Пароль должен включать букву нижнего регистра.") ; 
         return false;
     }
     else if (!preg_match('/[A-Z]/', $password)) {
-        flash("Пароль должен включать букву верхнего регистра.") ;  
+        Rflash("Пароль должен включать букву верхнего регистра.") ;  
         return false;
     }
     else if (!preg_match('/[0-9]/', $password)) {
-        flash("Пароль должен включать числа.") ; 
+        Rflash("Пароль должен включать числа.") ; 
         return false;
     }
     else if (!preg_match('/[!@#$%^&*(),.?":{}|<>_-]/', $password)) {
-        flash("Пароль должен включать специальный символ.") ; 
+        Rflash("Пароль должен включать специальный символ.") ; 
         return false;
     }
     else{
@@ -85,5 +85,5 @@ $stmt->execute([
     'password' => password_hash($_POST['password'], PASSWORD_DEFAULT),
 ]);
 
-flash("Успешно зарегестрированны");
+Rflash("Успешно зарегестрированны");
 header('Location: index.php');

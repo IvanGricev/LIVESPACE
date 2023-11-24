@@ -62,7 +62,7 @@ if (check_auth()) {
         <h2 class="mb-3">Регистрация</h2>
 
         <div class="w-50">
-            <?php flash(); ?> 
+            <?php Rflash(); ?> 
         </div> 
 
         <form method="post" action="do_register.php" id="signupForm">

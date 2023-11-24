@@ -41,3 +41,17 @@ function Oflash(?string $message = null)
         unset($_SESSION['Oflash']);
     }
 }
+
+function Rflash(?string $message = null)
+{
+    if ($message) {
+        $_SESSION['Rflash'] = $message;
+    } else {
+        if (!empty($_SESSION['Rflash'])) { ?>
+          <div class="alert alert-danger mb-3">
+              <?=$_SESSION['Rflash']?>
+          </div>
+        <?php }
+        unset($_SESSION['Rflash']);
+    }
+}
