@@ -31,7 +31,7 @@ $user = null;
                     <li class="nav-item"><span><a href="index.php"><img src="img/LIVESPACE.png" alt=""></a></span></li>
                     <!--<li class="nav-item"><a href="index.php" class="px-3 fw-bold" >Земля</a></li>-->
                     <li class="nav-item"><a href="flight_fares.php" class="px-3 fw-bold">Перелёты</a></li>
-                    <li class="nav-item"><a href="news.php" class="px-3 fw-bold">новости</a></li>
+                    <li class="nav-item"><a href="news.php" class="px-3 fw-bold">История</a></li>
                 </ul>
                 <ul class="nav">
                     <?php if (!isset($_SESSION['user_id'])): ?>
