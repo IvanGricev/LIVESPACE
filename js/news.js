@@ -1,4 +1,4 @@
-const deadline = '2024-01-25';
+const deadline = '2023-12-25';
 
 
     function getTimeRemaining(endtime) {
